@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic'
-          rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="{{ baseUrl }}/css/fonts.css" type="text/css"/>
     <link rel="stylesheet" href="{{ baseUrl }}/css/theme.css" type="text/css"/>
     <link rel="stylesheet" href="{{ baseUrl }}/css/theme-fixes.css" type="text/css"/>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/highlightjs.css" type="text/css"/>
 </head>
 <body class="wy-body-for-nav">
 
@@ -75,9 +73,9 @@
 
 </div>
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="{{ baseUrl }}/js/jquery-1.11.0.min.js"></script>
+<script src="{{ baseUrl }}/js/bootstrap.min.js"></script>
+<script src="{{ baseUrl }}/js/highlight.min.js"></script>
 <script src="{{ baseUrl }}/js/theme.js"></script>
 
 <script>
