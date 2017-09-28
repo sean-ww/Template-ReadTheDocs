@@ -46,3 +46,7 @@ Styling for piped tables:
 ```
 
 ![](screenshot.png)
+
+## Other
+
+The external css and js files have been replaced in order for the application to function better on an internal server without an internet connection.

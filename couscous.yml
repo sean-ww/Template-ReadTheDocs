@@ -2,7 +2,7 @@ template:
     directory: .
 
 github:
-    user: CouscousPHP
+    user: sean-ww
     repo: Template-ReadTheDocs
 
 title: ReadTheDocs template
