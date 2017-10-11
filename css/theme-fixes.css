@@ -73,3 +73,11 @@ pre {
     border: 1px solid #ddd;
     padding: 8px 13px;
 }
+
+/* Lists */
+li {
+    list-style: disc;
+}
+ul, ol, dl {
+    margin-bottom: 24px;
+}
